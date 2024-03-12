@@ -4,7 +4,7 @@
 terraform {
 
   cloud {
-    organization = "hyungwook"
+    organization = "ZET82"
     
     workspaces {
       name = "dev-eks"
