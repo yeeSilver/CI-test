@@ -7,6 +7,7 @@ provider "aws" {
 
 # Filter out local zones, which are not currently supported 
 # with managed node groups
+# 가능한 가용영역 변수 저장
 data "aws_availability_zones" "available" {
   filter {
     name   = "opt-in-status"
