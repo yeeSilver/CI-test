@@ -7,7 +7,7 @@ terraform {
     organization = "ZET82"
     
     workspaces {
-      name = "dev-eks"
+      name = "dev-eks-jp"
     }
   }
 
